@@ -741,6 +741,24 @@
 .toggle-product-plans,
 .toggle-product-deal-zone,
 .toggle-product-directory,
+.toggle-resources-deal-zone,
+.toggle-resources-directory,
+.toggle-resources-platform,
+.toggle-resources-deal-zone,
+.toggle-company-platform,
+.toggle-company-platform,
+.toggle-company-deal-zone,
+.toggle-company-directory,
+.oggle-company-deal-zone {
+  text-decoration: none;
+}
+
+.toggle-product-platform,
+.toggle-product-get-listed,
+.toggle-product-all-categories,
+.toggle-product-plans,
+.toggle-product-deal-zone,
+.toggle-product-directory,
 .toggle-resources-platform,
 .toggle-resources-get-listed,
 .toggle-resources-all-categories,

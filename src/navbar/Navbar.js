@@ -58,34 +58,34 @@ export default function () {
           <div className="toggle-product-section">
                     {/* LEFT side product */}
               <div className="toggle-product-left-column">
-                <a className="toggle-product-platform">
+                <a href="https://enterpriseleague.com/product" className="toggle-product-platform">
                   <img src={MarketPLaceImg} className="hovering-images-div"></img>
                   <div className="toggle-product-platform-text">Platform</div>
                 </a>
 
-                <a className="toggle-product-get-listed">
+                <a href="https://enterpriseleague.com/why-get-listed"className="toggle-product-get-listed">
                   <img src={GetListedImg} className="hovering-images-div"></img>
                   <div className="toggle-product-get-listed-text">Get Listed</div>
                 </a>
 
-                <a className="toggle-product-all-categories">
+                <a href="https://enterpriseleague.com/hire"className="toggle-product-all-categories">
                   <img src={AllCategoriesImg} className="hovering-images-div"></img>
                   <div className="toggle-product-all-categories-text">See All Categories</div>
                 </a>
 
-                <a className="toggle-product-plans">
+                <a href="https://enterpriseleague.com/pricing"className="toggle-product-plans">
                   <img src={ComparePlansImg} className="hovering-images-div"></img>
                   <div className="toggle-product-plans-text">Compare Plans</div>
                 </a>
               </div>
                     {/* RIGHT side product */}
               <div className="toggle-product-right-column">
-                <a className="toggle-product-deal-zone">
+                <a href="https://enterpriseleague.com/dealzone" className="toggle-product-deal-zone">
                   <img src={DealZoneImg} className="hovering-images-div"></img>
                   <div className="toggle-product-deal-zone-text">Deal Zone</div>
                 </a>
 
-                <a className="toggle-product-directory">
+                <a href="https://enterpriseleague.com/explore" className="toggle-product-directory">
                   <img src={DirectoryImg} className="hovering-images-div"></img>
                   <div className="toggle-product-directory-text">Directory</div>
                 </a>
@@ -93,7 +93,7 @@ export default function () {
                 
               </div>
               <div className="toggle-product-right-column-inv">
-                  <a className="toggle-product-deal-zone">
+                  <a href="" className="toggle-product-deal-zone">
                     <img src={DealZoneImg} className="hovering-images-div"></img>
                     <div className="toggle-product-deal-zone-text">Deal Zone</div>
                   </a>
@@ -104,7 +104,7 @@ export default function () {
           <div className="toggle-resources-section">
                     {/* LEFT side product */}
               <div className="toggle-resources-left-column">
-                <a className="toggle-resources-platform">
+                <a href="https://enterpriseleague.com/solutions" className="toggle-resources-platform">
                   <img src={MarketPLaceImg} className="hovering-images-div"></img>
                   <div className="toggle-resources-platform-text">Solutions</div>
                 </a>
@@ -112,12 +112,12 @@ export default function () {
               </div>
                     {/* RIGHT side product */}
               <div className="toggle-resources-right-column">
-                <a className="toggle-resources-deal-zone">
+                <a href="https://enterpriseleague.com/about/newsroom" className="toggle-resources-deal-zone">
                   <img src={NewsroomImg} className="hovering-images-div"></img>
                   <div className="toggle-resources-deal-zone-text">Newsroom</div>
                 </a>
 
-                <a className="toggle-resources-directory">
+                <a href="https://enterpriseleague.com/blog/" className="toggle-resources-directory">
                   <img src={BlogImg} className="hovering-images-div"></img>
                   <div className="toggle-resources-directory-text">From the Blog</div>
                 </a>
@@ -125,7 +125,7 @@ export default function () {
                 
               </div>
               <div className="toggle-resources-right-column-inv">
-                  <a className="toggle-resources-deal-zone">
+                  <a href=""className="toggle-resources-deal-zone">
                     <img src={DealZoneImg} className="hovering-images-div"></img>
                     <div className="toggle-resources-deal-zone-text">Deal Zone</div>
                   </a>
@@ -136,17 +136,17 @@ export default function () {
           <div className="toggle-company-section">
                     {/* LEFT side product */}
               <div className="toggle-company-left-column">
-                <a className="toggle-company-platform">
+                <a href="https://enterpriseleague.com/about-us" className="toggle-company-platform">
                   <img src={AboutImg} className="hovering-images-div"></img>
                   <div className="toggle-company-platform-text">About</div>
                 </a>
-                <a className="toggle-company-platform">
+                <a href="https://enterpriseleague.com/blog/careers/" className="toggle-company-platform">
                   <img src={CareersImg} className="hovering-images-div"></img>
                   <div className="toggle-company-platform-text">Careers</div>
                 </a>
 
                 <div className="toggle-company-right-column-inv-imposter">
-                  <a className="toggle-company-deal-zone">
+                  <a href="" className="toggle-company-deal-zone">
                     <img src={ContactUsImg} className="hovering-images-div"></img>
                     <div className="toggle-company-deal-zone-text">Contact</div>
                   </a>
@@ -155,12 +155,12 @@ export default function () {
               </div>
                     {/* RIGHT side product */}
               <div className="toggle-company-right-column">
-                <a className="toggle-company-deal-zone">
+                <a href="https://enterpriseleague.com/about/team" className="toggle-company-deal-zone">
                   <img src={TeamImg} className="hovering-images-div"></img>
                   <div className="toggle-company-deal-zone-text">Team</div>
                 </a>
 
-                <a className="toggle-company-directory">
+                <a href="https://enterpriseleague.com/blog/advertise-with-us/" className="toggle-company-directory">
                   <img src={AdvertiseImg} className="hovering-images-div"></img>
                   <div className="toggle-company-directory-text">Advertise</div>
                 </a>
@@ -173,7 +173,7 @@ export default function () {
                 
               </div>
               <div className="toggle-company-right-column-inv">
-                  <a className="toggle-company-deal-zone">
+                  <a href="https://enterpriseleague.com/blog/contact/" className="toggle-company-deal-zone">
                     <img src={ContactUsImg} className="hovering-images-div"></img>
                     <div className="toggle-company-deal-zone-text">Contact</div>
                   </a>
