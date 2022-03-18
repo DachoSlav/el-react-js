@@ -1,0 +1,141 @@
+.div-to-be-edited {
+  position: absolute;
+  top: 10rem;
+  width: 60%;
+  margin: 0rem;
+  -webkit-transform: translate(-5rem);
+          transform: translate(-5rem);
+  background: white;
+  z-index: 2000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: fixed;
+}
+
+.div-ad-wrapper-whole {
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 20000px 20000px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 0px 20000px 20000px rgba(0, 0, 0, 0.7);
+  -webkit-filter: blur(200);
+          filter: blur(200);
+  padding: 4rem 1rem;
+  border-radius: 10px;
+}
+
+.div-ad-wrapper-whole body {
+  pointer-events: none !important;
+  background: none !important;
+  height: 100vh;
+}
+
+.div-ad-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -5rem;
+}
+
+.do-you-need-title {
+  font-family: "Museo500";
+  font-weight: 700;
+  color: #4c4c4c;
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.do-you-need-subtitle {
+  font-family: "Museo300";
+  font-weight: 300;
+  color: rgba(77, 77, 77, 0.8);
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.ad-left-no, .ad-right-yes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.no-image {
+  width: 20rem !important;
+  padding-bottom: 5rem;
+}
+
+.not-really, .extra-money {
+  background: #85589f;
+  color: white;
+  border: none;
+  font-family: "Museo500";
+  font-size: 2rem;
+  padding: 1rem 0rem;
+  border-radius: 5px;
+  width: 30rem;
+  cursor: pointer;
+}
+
+.extra-money {
+  background: #41a7a3;
+}
+
+@media only screen and (max-width: 1200px) {
+  .div-ad-wrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .do-you-need-title {
+    font-size: 3rem;
+  }
+  .do-you-need-subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .div-ad-wrapper {
+    margin-top: 2rem !important;
+    gap: 0rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .no-image {
+    width: 10rem !important;
+    padding-bottom: 3rem;
+  }
+  .div-to-be-edited {
+    width: 90%;
+  }
+  .not-really, .extra-money {
+    width: 15rem;
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=ad.css.map */

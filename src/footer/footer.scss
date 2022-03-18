@@ -1,0 +1,196 @@
+.footer-div{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 5rem 0rem;
+    margin: 0 auto;
+    
+}
+.footer-content-div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    gap: 20rem;
+    
+    margin: 0 auto;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+    height: 30rem;
+    width: 25%;
+}
+
+.footer-image-div{
+    margin-top: 0rem !important;
+    align-self: flex-start !important;
+}
+.footer-image{
+    height: auto;
+    width: 30rem;
+}
+
+.inside-merged{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.merged-text{
+    font-size: 1.4rem;
+    font-family: "Museo300";
+    color: #777;
+}
+.merged-image{
+    position: absolute;
+    width: 9rem;
+    height: auto;
+    left: 7.5rem;
+}
+.socials{
+    display: flex;
+    
+}
+.social{
+    height: 7em;
+    width: 7em;
+    color: #414141;
+}
+.social-a + .social-a{
+    margin-left: 4rem;
+}
+
+
+.footer-right-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8rem;
+    margin-top: 1.7rem !important;
+}
+
+.company-column{
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+}
+.footer-company-title, .footer-product-title, .footer-resources-title, .footer-resources-title-two{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2189d1;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.company-item, .product-item, .resources-item, .resources-item-two{
+    
+    margin-top: 16px;
+    color: #777;
+    text-decoration: none;
+    font-size: 15px;
+    list-style: none;
+    font-weight: 400;
+    &:hover{
+        cursor: pointer;
+        color:  #b6b6b6;
+    }
+    
+}
+
+.footer-resources-column-two{
+    display: none;
+}
+
+.copyright-div{
+    font-size: 1.2rem;
+    font-family: "Museo300";
+    border-top: 2px solid #70707070;
+    padding-top: 38px;
+    width: 90%;
+    text-align: center;
+    color: #777;
+}
+@media only screen and (max-width: 1250px) {
+    
+    .footer-left{
+        width: 40%;
+    }
+    .footer-content-div{
+        
+        gap: 2rem;
+    }
+     
+}
+
+@media only screen and (max-width: 900px) {
+
+
+    .footer-left {
+        width: 100%;
+    }
+    .footer-content-div{
+        flex-direction: column;
+    }
+    .footer-left{
+       align-items: center;
+    }
+    .footer-image-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-image{
+        width: 20rem;
+        margin: 0 auto;
+    }
+    .social{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .social-a + .social-a{
+        margin-left: 2.5rem;
+    }
+
+    .merged-image{ 
+        width: 7rem;
+        left: 8.5rem;
+    }
+
+    .footer-right{
+        width: 100%;
+    }
+    
+    .footer-right-wrapper{
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+    
+}
+
+@media only screen and (max-width: 720px) {
+    
+    .footer-resources-column{
+        display: none;
+    }
+
+    .footer-resources-column-two{
+        display: block;
+        margin-top: 2rem;
+    }
+     .footer-right-wrapper{
+         justify-content: space-around;
+     }
+     
+}

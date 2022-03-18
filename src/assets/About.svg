@@ -1,0 +1,30 @@
+<svg id="about" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #63757f;
+        stroke: #63757f;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 17px;
+        font-family: Lato-Heavy, Lato;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_1" data-name="Ellipse 1" class="cls-1">
+    <circle class="cls-3" cx="12" cy="12" r="12"/>
+    <circle class="cls-4" cx="12" cy="12" r="11.5"/>
+  </g>
+  <text id="i" class="cls-2" transform="translate(10 19)"><tspan x="0" y="0">i</tspan></text>
+</svg>

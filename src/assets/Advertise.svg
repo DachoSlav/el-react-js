@@ -1,0 +1,31 @@
+<svg id="advertise" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #63757f;
+        stroke: #63757f;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_3" data-name="Ellipse 3" class="cls-1">
+    <circle class="cls-3" cx="12" cy="12" r="12"/>
+    <circle class="cls-4" cx="12" cy="12" r="11.5"/>
+  </g>
+  <g id="Icon_ionic-md-megaphone" data-name="Icon ionic-md-megaphone" transform="translate(4.223 4.419)">
+    <path id="Path_269" data-name="Path 269" class="cls-2" d="M26.178,10.083l-.936.932a3.3,3.3,0,0,1,0,4.666l.936.936a4.62,4.62,0,0,0,0-6.533Z" transform="translate(-14.389 -7.084)"/>
+    <path id="Path_270" data-name="Path 270" class="cls-2" d="M29.431,6.961l-.919.919a5.867,5.867,0,0,1,0,8.287l.919.919a7.158,7.158,0,0,0,0-10.126Z" transform="translate(-15.976 -6.191)"/>
+    <path id="Path_271" data-name="Path 271" class="cls-2" d="M11.582,10.225v-4.6H10.545L7.435,9.16H3.287L2.25,9.867v4.949l1.037.707,2.592,5.656H7.435l-.972-5.656h.972l3.111,2.828h1.037v-4.6c.6-.075,1.037-.835,1.037-1.763S12.178,10.3,11.582,10.225Z" transform="translate(-2.25 -5.625)"/>
+  </g>
+</svg>

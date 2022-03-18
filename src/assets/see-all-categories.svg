@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #63757f;
+        stroke: #63757f;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="see_all_categories" data-name="see all categories" transform="translate(0 0.01)">
+    <g id="Ellipse_11" data-name="Ellipse 11" class="cls-1" transform="translate(0 -0.01)">
+      <circle class="cls-3" cx="12" cy="12" r="12"/>
+      <circle class="cls-4" cx="12" cy="12" r="11.5"/>
+    </g>
+    <path id="Icon_metro-stack" data-name="Icon metro-stack" class="cls-2" d="M18.971,7.956l-8.2-4.1-8.2,4.1,8.2,4.1Zm-8.2-2.739,5.478,2.739L10.771,10.7,5.292,7.956Zm6.558,4.993,1.642.821-8.2,4.1-8.2-4.1,1.642-.821,6.558,3.279Zm0,3.075,1.642.821-8.2,4.1-8.2-4.1,1.642-.821,6.558,3.279Z" transform="translate(1.318 0.969)"/>
+  </g>
+</svg>

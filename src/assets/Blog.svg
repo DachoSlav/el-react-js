@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #63757f;
+        stroke: #63757f;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="blog" transform="translate(-514 -434)">
+    <g id="Ellipse_4" data-name="Ellipse 4" class="cls-1" transform="translate(514 434)">
+      <circle class="cls-3" cx="12" cy="12" r="12"/>
+      <circle class="cls-4" cx="12" cy="12" r="11.5"/>
+    </g>
+    <path id="Icon_metro-blogger" data-name="Icon metro-blogger" class="cls-2" d="M14.73,6.428H14a.869.869,0,0,1-.868-.75,3.944,3.944,0,0,0-4.2-3.75H6.8A4.064,4.064,0,0,0,2.571,5.8v4.252A4.062,4.062,0,0,0,6.8,13.928h4.55a4.056,4.056,0,0,0,4.222-3.873V7.308a.9.9,0,0,0-.84-.88Zm-8.1-1.5H9.071a.785.785,0,0,1,.813.75.785.785,0,0,1-.813.75H6.633a.785.785,0,0,1-.812-.75.785.785,0,0,1,.812-.75Zm4.875,6H6.633a.752.752,0,1,1,0-1.5h4.875a.752.752,0,1,1,0,1.5Z" transform="translate(517.341 438.072)"/>
+  </g>
+</svg>

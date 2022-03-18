@@ -1,0 +1,120 @@
+.div-to-be-edited{
+    position: absolute;
+    top: 10rem;
+    width: 60%;
+    margin: 0rem;
+    transform: translate(-5rem);
+    background: white;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+
+.div-ad-wrapper-whole{
+    
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 20000px 20000px hsla(0, 0%, 0%, 0.7);
+    filter: blur(200);
+    padding: 4rem 1rem;
+    border-radius: 10px;
+
+    body{
+        pointer-events: none !important;
+        background: none !important;
+        height: 100vh;
+        
+    }
+}
+.div-ad-wrapper{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+}
+.do-you-need-title{
+    font-family: "Museo500";
+    font-weight: 700;
+    color: #4c4c4c;
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.do-you-need-subtitle{
+    font-family: "Museo300";
+    font-weight: 300;
+    color: hsla(0, 0%, 30%, 0.8);
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.ad-left-no, .ad-right-yes{
+    display: flex;
+    flex-direction: column;
+    
+}
+.no-image{
+    width: 20rem !important;
+    padding-bottom: 5rem;
+}
+
+.not-really, .extra-money{
+    background: #85589f;
+    color: white;
+    border: none;
+    font-family: "Museo500";
+    font-size: 2rem;
+    padding: 1rem 0rem;
+    border-radius: 5px;
+    width: 30rem;
+    cursor: pointer;
+
+}
+.extra-money{
+    background: #41a7a3;
+    
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    
+    .div-ad-wrapper{
+        flex-direction: column !important;
+    }
+    .do-you-need-title{
+        font-size: 3rem;
+    }
+    .do-you-need-subtitle{
+        font-size: 1.5rem;
+    }
+
+    
+}
+@media only screen and (max-width: 850px) {
+    .div-ad-wrapper{
+        margin-top: 2rem !important;
+        gap: 0rem;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .no-image{
+        width: 10rem !important;
+        padding-bottom: 3rem;
+    }
+    .div-to-be-edited{
+        width: 90%;
+    }
+    .not-really, .extra-money{
+        width: 15rem;
+        font-size: 1rem;
+    }
+    
+}

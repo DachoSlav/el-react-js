@@ -1,0 +1,626 @@
+@font-face {
+    font-family: "Museo300";
+    src: url("./museo_sans_ssv/museo_sans_ssv/Museo Sans 300/MuseoSans-300.otf");
+}
+@font-face {
+    font-family: "Museo500";
+    src: url("./museo_sans_ssv/museo_sans_ssv/Museo Sans 500/MuseoSans_500.otf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.card-container{
+    background-image: url("../assets/background.svg");
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 8rem;
+}
+.card-wrapper{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 155rem;
+    margin: 0 auto;
+    grid-gap: 4rem;
+    padding: 1rem;
+    position: relative;
+    //ako nesto ne rabote tuka e problemo
+}
+.container{
+    box-shadow: 0px 8px 15px lightgray;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    font-size: 2.2rem;
+    background-color: white;
+}
+
+.title{
+    color: #384F5C;
+}
+
+
+
+#root > div > div > div > div:nth-child(1) > img{
+    height: auto;
+    width: 12rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(1) > h5{
+    position: relative;
+    top: 5rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(1) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(2) > img{
+    height: auto;
+    width: 17rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(2) > h5{
+    position: relative;
+    top: 5.6rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(2) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(3) > img{
+    height: auto;
+    width: 22rem;
+    margin-top: 0.5rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(3) > h5{
+    position: relative;
+    top: 7.5rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(3) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(4) > img{
+    height: auto;
+    width: 22rem;
+    margin-top: 0.5rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(4) > h5{
+    position: relative;
+    top: 7rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(4) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(5) > img{
+    height: auto;
+    width: 12rem;
+    margin-top: 0.5rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(5) > h5{
+    position: relative;
+    top: 4.7rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(5) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(6) > img{
+    height: auto;
+    width: 10rem;
+    margin-top: -2.5rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(6) > h5{
+    position: relative;
+    top: 4.4rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(6) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(7) > img{
+    height: auto;
+    width: 11rem;
+    margin-top: -1rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(7) > h5{
+    position: relative;
+    top: 3.1rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(7) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(8) > img{
+    height: auto;
+    width: 15rem;
+    margin-top: 1rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(8) > h5{
+    position: relative;
+    top: 5.2rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(8) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(9) > img{
+    height: auto;
+    width: 15rem;
+    margin-top: -.5rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(9) > h5{
+    position: relative;
+    top: 4.0rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(9) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(10) > img{
+    height: auto;
+    width: 20rem;
+    margin-top: -.5rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(10) > h5{
+    position: relative;
+    top: 4.0rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(10) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(11) > img{
+    height: auto;
+    width: 15rem;
+    margin-top: -.5rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(11) > h5{
+    position: relative;
+    top: 4.0rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(11) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(12) > img{
+    height: auto;
+    width: 21rem;
+    margin-top: 0rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(12) > h5{
+    position: relative;
+    top: 4.9rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(12) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(13) > img{
+    height: auto;
+    width: 18rem;
+    margin-top: 0rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(13) > h5{
+    position: relative;
+    top: 4.9rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(13) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(14) > img{
+    height: auto;
+    width: 9rem;
+    margin-top: 0rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(14) > h5{
+    position: relative;
+    top: 3.4rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(14) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(15) > img{
+    height: auto;
+    width: 18rem;
+    margin-top: 0rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(15) > h5{
+    position: relative;
+    top: 3.5rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(15) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(16) > img{
+    height: auto;
+    width: 10rem;
+    margin-top: -1rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(16) > h5{
+    position: relative;
+    top: 2.5rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(16) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(17) > img{
+    height: auto;
+    width: 15rem;
+    margin-top: 0.5rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(17) > h5{
+    position: relative;
+    top: 4rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(17) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+
+#root > div > div > div > div:nth-child(18) > img{
+    height: auto;
+    width: 14rem;
+    margin-top: -1rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(18) > h5{
+    position: relative;
+    top: 3rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(18) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+
+#root > div > div > div > div:nth-child(19) > img{
+    height: auto;
+    width: 6rem;
+    margin-top: 0rem;
+    align-self: center;
+}
+#root > div > div > div > div:nth-child(19) > h5{
+    position: relative;
+    top: 4rem;
+    font-family: "Museo500";
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+#root > div > div > div > div:nth-child(19) > div{
+    font-family: "Museo300";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 5rem;
+    color: hsla(0, 0%, 0%, 0.565);
+}
+
+#root > div > div > div > div:nth-child(19){
+    grid-column: 2;
+}
+@media only screen and (max-width: 1360px) {
+    .card-wrapper{
+        
+        grid-template-columns: 1fr 1fr;
+        max-width: 155rem;
+        padding: 0 8rem;
+        grid-gap: 4rem;
+        
+    }
+
+    #root > div > div > div > div:nth-child(10) > h5{
+        top: 2.2rem;
+    }
+    #root > div > div > div > div:nth-child(15) > img{
+        margin-top: -1rem;
+    }
+    #root > div > div > div > div:nth-child(15) > h5{
+        margin-top: -1.7rem;
+    }
+
+    #root > div > div > div > div:nth-child(19){
+        grid-column: span 2;
+        width: 48.5%;
+        margin-left: 26%;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .card-wrapper{ 
+        padding: 0 2rem; 
+        grid-gap: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .card-wrapper{ 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #root > div > div > div > div:nth-child(19){
+        grid-column: span 1;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+  }
+  
+  @media only screen and (max-width: 900px) {
+    #root > div > div > div > div:nth-child(1) > h5,
+    #root > div > div > div > div:nth-child(2) > h5,
+    #root > div > div > div > div:nth-child(3) > h5,
+    #root > div > div > div > div:nth-child(4) > h5,
+    #root > div > div > div > div:nth-child(5) > h5,
+    #root > div > div > div > div:nth-child(6) > h5,
+    #root > div > div > div > div:nth-child(7) > h5,
+    #root > div > div > div > div:nth-child(8) > h5,
+    #root > div > div > div > div:nth-child(9) > h5,
+    #root > div > div > div > div:nth-child(10) > h5,
+    #root > div > div > div > div:nth-child(11) > h5,
+    #root > div > div > div > div:nth-child(12) > h5,
+    #root > div > div > div > div:nth-child(13) > h5,
+    #root > div > div > div > div:nth-child(14) > h5,
+    #root > div > div > div > div:nth-child(15) > h5,
+    #root > div > div > div > div:nth-child(16) > h5,
+    #root > div > div > div > div:nth-child(17) > h5,
+    #root > div > div > div > div:nth-child(18) > h5,
+    #root > div > div > div > div:nth-child(19) > h5{
+        font-size: 1.8rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #root > div > div > div > div:nth-child(1) > h5,
+    #root > div > div > div > div:nth-child(2) > h5,
+    #root > div > div > div > div:nth-child(3) > h5,
+    #root > div > div > div > div:nth-child(4) > h5,
+    #root > div > div > div > div:nth-child(5) > h5,
+    #root > div > div > div > div:nth-child(6) > h5,
+    #root > div > div > div > div:nth-child(7) > h5,
+    #root > div > div > div > div:nth-child(8) > h5,
+    #root > div > div > div > div:nth-child(9) > h5,
+    #root > div > div > div > div:nth-child(10) > h5,
+    #root > div > div > div > div:nth-child(11) > h5,
+    #root > div > div > div > div:nth-child(12) > h5,
+    #root > div > div > div > div:nth-child(13) > h5,
+    #root > div > div > div > div:nth-child(14) > h5,
+    #root > div > div > div > div:nth-child(15) > h5,
+    #root > div > div > div > div:nth-child(16) > h5,
+    #root > div > div > div > div:nth-child(17) > h5,
+    #root > div > div > div > div:nth-child(18) > h5,
+    #root > div > div > div > div:nth-child(19) > h5{
+        font-size: 1.2rem;
+    }
+  }
+
+
+
+
+
+

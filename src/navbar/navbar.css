@@ -1,0 +1,874 @@
+.navbar-container {
+  background-color: white;
+  width: 100vw;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 12;
+  width: 100%;
+  padding: 1% 3%;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.2);
+}
+
+.removeAnimation {
+  -webkit-animation: fadeOut 200ms;
+          animation: fadeOut 200ms;
+}
+
+.addAnimation {
+  -webkit-animation: fadeIn 200ms;
+          animation: fadeIn 200ms;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.product-title, .company-title, .resources-title {
+  font-weight: 300;
+}
+
+.navbar-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.left-navbar {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -5rem;
+  width: 40rem;
+  margin-left: 20rem;
+  font-size: 4rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: #777;
+  font-family: "Museo300";
+  letter-spacing: 2px;
+}
+
+.product-div,
+.resources-div,
+.company-div {
+  margin-left: 5rem;
+  position: relative;
+}
+
+.product-div:hover {
+  color: #bcbcbc;
+}
+
+.product-div:hover .arrow {
+  border: 2px solid #bcbcbc;
+}
+
+.wrp,
+.wrp-r,
+.wrp-c {
+  display: none;
+}
+
+.product-div:hover .wrp {
+  display: block;
+}
+
+.resources-div:hover .wrp-r {
+  display: block;
+}
+
+.resources-div:hover {
+  color: #bcbcbc;
+}
+
+.resources-div:hover .arrow {
+  border: 2px solid #bcbcbc;
+}
+
+.company-div:hover {
+  color: #bcbcbc;
+}
+
+.company-div:hover .arrow {
+  border: 2px solid #bcbcbc;
+}
+
+.company-div:hover .wrp-c {
+  display: block;
+}
+
+.left-navbar > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5rem;
+}
+
+.logo {
+  height: 3.2rem;
+  position: relative;
+  left: 1.5rem;
+}
+
+.right-navbar {
+  float: right;
+  width: 20rem;
+  margin-right: 16rem;
+}
+
+.login-button {
+  font-family: "Museo300";
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #777;
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+.get-started-button {
+  font-family: "Museo300";
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background-color: #2189d1;
+}
+
+.get-started-button:hover {
+  background: #48b2fb;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.arrow {
+  margin-left: 12px;
+  margin-top: 9px;
+  border-width: 0 2px 2px 0 !important;
+  border: solid #777;
+  display: block;
+  padding: 1px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  right: -1.5rem;
+  top: -0.4rem;
+}
+
+.hamburger {
+  margin-top: -2rem !important;
+  display: none;
+  position: absolute;
+  padding: 1% 3%;
+  right: 3%;
+  top: 1%;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  z-index: 123123123;
+}
+
+.menu-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+
+.menu-btn__burger {
+  width: 20px;
+  height: 2px;
+  background: #3d3d3d;
+  border-radius: 5px;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: #3d3d3d;
+  border-radius: 5px;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+
+.menu-btn__burger::before {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+.menu-btn__burger::after {
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+}
+
+.menu-btn.open .menu-btn__burger {
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  background: transparent;
+}
+
+.menu-btn.open .menu-btn__burger::before {
+  -webkit-transform: rotate(45deg) translate(15px, -15px);
+          transform: rotate(45deg) translate(15px, -15px);
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease;
+}
+
+.menu-btn.open .menu-btn__burger::after {
+  -webkit-transform: rotate(-45deg) translate(15px, 15px);
+          transform: rotate(-45deg) translate(15px, 15px);
+}
+
+@media only screen and (max-width: 1680px) {
+  .right-navbar {
+    margin-right: 2%;
+  }
+  .left-navbar {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hamburger {
+    display: block;
+  }
+  .product-div,
+  .resources-div,
+  .company-div,
+  .right-navbar {
+    display: none;
+  }
+  .navbar-logo-div {
+    left: -35%;
+    top: 20%;
+    position: relative;
+  }
+}
+
+.product-overview-wrapper {
+  padding: 3rem;
+}
+
+.product-hover-content-wrapper {
+  width: 100%;
+}
+
+.product-hover-content {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 23rem;
+  width: 70rem;
+  background-color: white;
+  position: absolute;
+  top: 2rem;
+  left: -5px;
+  -webkit-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.product-hover-content:hover {
+  cursor: default;
+}
+
+.company-hover-text {
+  font-weight: 300;
+  color: #777;
+}
+
+.product-overview-title {
+  font-size: 1.4rem;
+  color: #777;
+  font-family: "Museo300";
+  border-bottom: 1px solid #777;
+  width: 100%;
+}
+
+.hovering-images {
+  height: 20px;
+  width: 20px;
+}
+
+.product-platform-text,
+.product-get-listed-text,
+.product-see-all-categories-text {
+  text-decoration: none;
+  color: #777;
+}
+
+.product-platform-text:hover,
+.product-get-listed-text:hover,
+.product-see-all-categories-text:hover {
+  color: #48b2fb;
+  cursor: pointer;
+}
+
+.product-platform,
+.product-get-listed,
+.product-see-all-categories {
+  text-decoration: none !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.2rem;
+  font-family: "Museo300";
+  margin-top: 3rem !important;
+}
+
+.product-platform:hover,
+.product-get-listed:hover,
+.product-see-all-categories:hover {
+  cursor: pointer;
+}
+
+.product-platform:hover .product-platform-text,
+.product-platform:hover .product-get-listed-text,
+.product-platform:hover .product-see-all-categories-text,
+.product-get-listed:hover .product-platform-text,
+.product-get-listed:hover .product-get-listed-text,
+.product-get-listed:hover .product-see-all-categories-text,
+.product-see-all-categories:hover .product-platform-text,
+.product-see-all-categories:hover .product-get-listed-text,
+.product-see-all-categories:hover .product-see-all-categories-text {
+  color: #48b2fb;
+  cursor: pointer;
+}
+
+.resources-overview-wrapper {
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.resources-hover-content-wrapper {
+  width: 100%;
+}
+
+.resources-hover-content {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 30rem;
+  width: 65rem;
+  background-color: white;
+  position: absolute;
+  top: 2rem;
+  left: -5px;
+  -webkit-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.resources-hover-content:hover {
+  cursor: default;
+}
+
+.resources-overview-title {
+  font-size: 1.8rem;
+  color: #777;
+  font-family: "Museo300";
+  border-bottom: 1px solid #777;
+  width: 100%;
+}
+
+.hovering-images {
+  height: 20px;
+  width: 20px;
+}
+
+.resources-platform-text,
+.resources-get-listed-text,
+.resources-see-all-categories-text {
+  text-decoration: none;
+  color: #777;
+}
+
+.resources-platform-text:hover,
+.resources-get-listed-text:hover,
+.resources-see-all-categories-text:hover {
+  color: #48b2fb;
+  cursor: pointer;
+}
+
+.resources-platform,
+.resources-get-listed,
+.resources-see-all-categories {
+  text-decoration: none !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.2rem;
+  font-family: "Museo300";
+  margin-top: 0rem !important;
+}
+
+.resources-platform:hover,
+.resources-get-listed:hover,
+.resources-see-all-categories:hover {
+  color: #48b2fb;
+}
+
+.resources-platform:hover .resources-platform-text,
+.resources-platform:hover .resources-get-listed-text,
+.resources-platform:hover .resources-see-all-categories-text,
+.resources-get-listed:hover .resources-platform-text,
+.resources-get-listed:hover .resources-get-listed-text,
+.resources-get-listed:hover .resources-see-all-categories-text,
+.resources-see-all-categories:hover .resources-platform-text,
+.resources-see-all-categories:hover .resources-get-listed-text,
+.resources-see-all-categories:hover .resources-see-all-categories-text {
+  color: #48b2fb;
+}
+
+.resources-get-listed {
+  margin-right: 30% !important;
+}
+
+.blog {
+  padding: 3rem;
+  height: 22rem;
+  width: 65rem;
+  background-color: #f7f7f7;
+  border: 4px solid white;
+}
+
+.blog-text {
+  text-decoration: none;
+  color: #777;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.blog-text:hover {
+  color: #48b2fb;
+  cursor: pointer;
+}
+
+.blog-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -1rem 0 0 -0.5rem;
+  text-decoration: none;
+}
+
+.blog-flex:hover .blog-text {
+  color: #48b2fb;
+}
+
+.blog-text-link {
+  font-size: 1.4rem;
+  color: #3d3d3d;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.blog-text-link:hover {
+  color: #48b2fb;
+  cursor: pointer;
+}
+
+.blog-text-link + .blog-text-link {
+  margin-top: 3rem;
+}
+
+.blog-text-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem 0 0 2rem;
+}
+
+.company-hover-div-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: absolute;
+  height: 20rem;
+  width: 35rem;
+  background: white;
+  -webkit-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+  margin: 1rem 0 0 -9rem;
+  padding: 3rem;
+}
+
+.company-hover-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3d3d3d;
+  text-decoration: none;
+}
+
+.company-hover-item:hover .company-hover-text {
+  color: #48b2fb;
+}
+
+.company-hover-text {
+  font-family: "Museo300";
+  text-decoration: none;
+  color: #777;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.first-column-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.second-column-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.company-hover-text-displaynone {
+  font-size: 1.4rem;
+  opacity: 0;
+}
+
+.company-hover-text {
+  color: #3d3d3d;
+  margin-top: 2px;
+}
+
+.toggle-navbar-div {
+  display: none;
+  height: 100vmax;
+  width: 100%;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3rem;
+  z-index: 1123;
+}
+
+.toggle-product-right-column-inv,
+.toggle-resources-right-column-inv,
+.toggle-company-right-column-inv {
+  opacity: 0;
+}
+
+.toggle-navbar-div-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.toggle-product-section,
+.toggle-resources-section,
+.toggle-company-section,
+.toggle-buttons-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -3.5rem;
+}
+
+.toggle-product-left-column,
+.toggle-product-right-column,
+.toggle-resources-left-column,
+.toggle-resources-right-column,
+.toggle-company-left-column,
+.toggle-company-right-column,
+.toggle-buttons-left-column,
+.toggle-buttons-right-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.toggle-product-section-title,
+.toggle-resources-section-title,
+.toggle-company-section-title,
+.toggle-buttons-section-title {
+  border-bottom: 1px solid rgba(61, 61, 61, 0.5);
+  font-family: "Museo500";
+  color: #777;
+  font-size: 1.4rem;
+  font-weight: 500 !important;
+}
+
+.toggle-product-platform,
+.toggle-product-get-listed,
+.toggle-product-all-categories,
+.toggle-product-plans,
+.toggle-product-deal-zone,
+.toggle-product-directory,
+.toggle-resources-platform,
+.toggle-resources-get-listed,
+.toggle-resources-all-categories,
+.toggle-resources-plans,
+.toggle-resources-deal-zone,
+.toggle-resources-directory,
+.toggle-company-platform,
+.toggle-company-get-listed,
+.toggle-company-all-categories,
+.toggle-company-plans,
+.toggle-company-deal-zone,
+.toggle-company-directory,
+.toggle-buttons-platform,
+.toggle-buttons-get-listed,
+.toggle-buttons-all-categories,
+.toggle-buttons-plans,
+.toggle-buttons-deal-zone,
+.toggle-buttons-directory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.toggle-product-platform-text,
+.toggle-product-platform-text,
+.toggle-product-get-listed-text,
+.toggle-product-all-categories-text,
+.toggle-product-plans-text,
+.toggle-product-deal-zone-text,
+.toggle-product-directory-text,
+.toggle-resources-platform-text,
+.toggle-resources-platform-text,
+.toggle-resources-get-listed-text,
+.toggle-resources-all-categories-text,
+.toggle-resources-plans-text,
+.toggle-resources-deal-zone-text,
+.toggle-resources-directory-text,
+.toggle-company-platform-text,
+.toggle-company-platform-text,
+.toggle-company-get-listed-text,
+.toggle-company-all-categories-text,
+.toggle-company-plans-text,
+.toggle-company-deal-zone-text,
+.toggle-company-directory-text,
+.toggle-buttons-platform-text,
+.toggle-combuttonspany-platform-text,
+.toggle-buttons-get-listed-text,
+.toggle-buttons-all-categories-text,
+.toggle-buttons-plans-text,
+.toggle-buttons-deal-zone-text,
+.toggle-buttons-directory-text {
+  color: #525252;
+  font-size: 1.4rem;
+  margin-top: -0.3rem;
+}
+
+.toggle-product-right-column-inv,
+.toggle-resources-right-column-inv {
+  opacity: 0;
+}
+
+.toggle-resources-section-title {
+  margin-top: 5rem;
+}
+
+.toggle-resources-right-column {
+  margin-left: 3.8rem;
+}
+
+.toggle-product-right-column {
+  margin-left: -3.8rem;
+}
+
+.hovering-images-div {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.toggle-company-right-column-inv {
+  display: block !important;
+  opacity: 1;
+}
+
+.toggle-company-right-column-inv-imposter {
+  opacity: 0;
+}
+
+.toggle-buttons-left-column {
+  opacity: 0;
+}
+
+.register-company {
+  background: #2189d1;
+  font-family: "Museo300";
+  font-weight: 300;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  padding: 10px 10px 10px;
+  margin-left: -5rem;
+}
+
+.toggle-buttons-deal-zone {
+  text-decoration: none;
+}
+
+.toggle-buttons-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .toggle-product-right-column-inv,
+  .toggle-resources-right-column-inv,
+  .toggle-company-right-column-inv {
+    margin-left: -10rem !important;
+  }
+  .toggle-company-right-column-inv {
+    opacity: 0;
+  }
+  .toggle-company-right-column-inv-imposter {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

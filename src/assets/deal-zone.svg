@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #63757f;
+        stroke: #63757f;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="deal_zone" data-name="deal zone" transform="translate(-0.297 0.01)">
+    <g id="Ellipse_12" data-name="Ellipse 12" class="cls-1" transform="translate(0.297 -0.01)">
+      <circle class="cls-3" cx="12" cy="12" r="12"/>
+      <circle class="cls-4" cx="12" cy="12" r="11.5"/>
+    </g>
+    <g id="Rectangle_245" data-name="Rectangle 245" class="cls-2" transform="translate(6.344 12) rotate(-45)">
+      <rect class="cls-3" width="8" height="8" rx="1"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="7" height="7" rx="0.5"/>
+    </g>
+  </g>
+</svg>

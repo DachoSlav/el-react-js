@@ -1,0 +1,117 @@
+.center-part {
+  height: 50rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-animation: fadeIn 200ms;
+          animation: fadeIn 200ms;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+.add-border-bottom {
+  border-bottom: 5px solid #2189d1;
+}
+
+.add-dark-color-text {
+  color: #384F5C;
+}
+
+.add-light-color-text {
+  color: #777;
+}
+
+.title-center {
+  margin-top: 14rem;
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Museo500";
+}
+
+.el {
+  color: #777;
+  font-size: 4.5rem;
+}
+
+.in-the-news-title {
+  margin-left: 1rem;
+  color: #2189d1;
+  font-size: 4.5rem;
+}
+
+.two-buttons {
+  margin-top: 10rem;
+  font-family: "Museo500";
+  color: #777;
+}
+
+.in-the-news {
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.press {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.in-the-news, .press, .el, .in-the-news-title {
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 1360px) {
+  .in-the-news-title, .el {
+    font-size: 4.2rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .in-the-news, .press {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .in-the-news-title, .el {
+    font-size: 6vw;
+  }
+}
+/*# sourceMappingURL=crossRoad.css.map */

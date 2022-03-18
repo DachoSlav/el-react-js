@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #63757f;
+        stroke: #63757f;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="solutions" transform="translate(-369 -545)">
+    <g id="Ellipse_9" data-name="Ellipse 9" class="cls-1" transform="translate(369 545)">
+      <circle class="cls-3" cx="12" cy="12" r="12"/>
+      <circle class="cls-4" cx="12" cy="12" r="11.5"/>
+    </g>
+    <path id="Icon_awesome-lightbulb" data-name="Icon awesome-lightbulb" class="cls-2" d="M2.738,13.847a1.025,1.025,0,0,0,.153.539l.487.783a.9.9,0,0,0,.759.435H5.9a.9.9,0,0,0,.759-.435l.487-.783a1.024,1.024,0,0,0,.153-.539V12.678H2.736v1.169ZM0,5.364A5.552,5.552,0,0,0,1.241,8.892a8.924,8.924,0,0,1,1.488,2.787l0,.024H7.3l0-.024A8.924,8.924,0,0,1,8.79,8.892a5.552,5.552,0,0,0,1.241-3.529A5.2,5.2,0,0,0,5,0,5.182,5.182,0,0,0,0,5.364ZM5.016,2.926a2.366,2.366,0,0,0-2.28,2.438.472.472,0,0,1-.456.488.472.472,0,0,1-.456-.488A3.312,3.312,0,0,1,5.016,1.95a.472.472,0,0,1,.456.488A.472.472,0,0,1,5.016,2.926Z" transform="translate(375.984 549.633)"/>
+  </g>
+</svg>

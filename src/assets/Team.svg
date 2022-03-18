@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #63757f;
+        stroke: #63757f;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="team" transform="translate(0 0.082)">
+    <g id="Ellipse_2" data-name="Ellipse 2" class="cls-1" transform="translate(0 -0.082)">
+      <circle class="cls-3" cx="12" cy="12" r="12"/>
+      <circle class="cls-4" cx="12" cy="12" r="11.5"/>
+    </g>
+    <path id="Icon_ionic-md-people" data-name="Icon ionic-md-people" class="cls-2" d="M12.481,12.4a2.168,2.168,0,0,0,2.046-2.261,2.168,2.168,0,0,0-2.046-2.261,2.168,2.168,0,0,0-2.046,2.261A2.168,2.168,0,0,0,12.481,12.4Zm-5.457,0a2.168,2.168,0,0,0,2.046-2.261A2.168,2.168,0,0,0,7.025,7.875a2.168,2.168,0,0,0-2.046,2.261A2.168,2.168,0,0,0,7.025,12.4Zm0,1.658c-1.6,0-4.775.867-4.775,2.638v2.035H11.9V16.693C11.9,14.921,8.628,14.055,7.025,14.055Zm5.457.415a3.241,3.241,0,0,0-.585.038,2.318,2.318,0,0,1,1.072,2.186v2.035h4.287V16.693C17.256,14.921,14.084,14.469,12.481,14.469Z" transform="translate(2.247 -1.801)"/>
+  </g>
+</svg>

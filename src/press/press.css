@@ -1,0 +1,189 @@
+.press-container {
+  width: 100%;
+  background-image: url("..//assets/background.svg") !important;
+  background-size: cover !important;
+  background-repeat: repeat !important;
+  padding-bottom: 8rem;
+}
+
+.firstText-original {
+  display: none;
+}
+
+.firstText-added {
+  display: none;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.secondText-added {
+  display: none;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.thirdText-added {
+  display: none;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.press-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.press-item {
+  padding: 3rem;
+  margin: 3rem 0rem;
+  -webkit-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+  background: white;
+  border-radius: 5px;
+  position: relative;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.press-item:nth-child(2), .press-item:nth-child(3) {
+  margin-top: 10rem;
+}
+
+.read-more {
+  font-family: "Museo300";
+  font-size: 1.6rem;
+  color: #2189d1 !important;
+  position: absolute;
+  bottom: 1.4rem;
+  right: 3.2rem;
+  font-size: 1.8rem !important;
+  line-height: 26px;
+  background: white;
+  padding: 0.3rem;
+  border-radius: 5px;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.read-more:hover {
+  cursor: pointer;
+}
+
+.item-right-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -5rem;
+  padding: 0 2rem;
+  gap: 2rem;
+}
+
+.item-image {
+  height: auto;
+  width: 30rem !important;
+  border-radius: 5px;
+  -ms-flex-item-align: start !important;
+      align-self: flex-start !important;
+  float: left !important;
+}
+
+.press-item-title {
+  color: #384F5C;
+  font-size: 3rem;
+  font-family: "Museo300";
+  text-align: center;
+  line-height: 34px;
+  margin-top: -5rem;
+}
+
+.press-item-location {
+  padding-top: 1rem;
+  padding-bottom: 20px;
+  color: #707070;
+  text-align: left;
+  line-height: 26px;
+  font-family: "Museo300";
+  font-size: 2rem;
+}
+
+.press-item-text {
+  padding-top: 1rem;
+  padding-bottom: 29px;
+  color: #707070;
+  text-align: left;
+  line-height: 26px;
+  font-family: "Museo300";
+  font-size: 1.8rem;
+  overflow: hidden;
+  position: relative !important;
+  top: 0% !important;
+}
+
+.press-item-text-new {
+  display: none;
+}
+
+.press-item-location-new {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .press-item {
+    padding: 1.5rem;
+  }
+  .press-item-title {
+    font-size: 2.4rem;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+  .press-item-location {
+    font-size: 1.6rem;
+    padding-bottom: 5px;
+  }
+  .item-image {
+    width: 40% !important;
+  }
+  .press-item-text {
+    font-size: 1.4rem;
+  }
+  .press-item-text {
+    display: none;
+  }
+  .press-item-text-new {
+    display: block;
+  }
+  .press-item-text-new {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .press-item-text {
+    position: relative !important;
+    margin-left: 0% !important;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .press-item-title {
+    font-size: 2rem;
+  }
+  .press-item-location-new {
+    display: block;
+    margin-bottom: -3rem;
+  }
+  .press-item-location {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .press-wrapper {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=press.css.map */

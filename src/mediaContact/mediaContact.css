@@ -1,0 +1,186 @@
+.media-contact-div {
+  width: 100%;
+  background: white;
+  padding: 5rem 2rem;
+}
+
+.media-description {
+  font-family: "Museo300";
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-top: 0rem !important;
+  color: rgba(0, 0, 0, 0.565);
+}
+
+.contact-description {
+  font-family: "Museo300";
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-top: 0rem !important;
+  color: rgba(0, 0, 0, 0.565);
+}
+
+.media-contact-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.media-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4rem;
+}
+
+.media-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+
+.media-image {
+  width: 12rem;
+  height: auto;
+}
+
+.media-title {
+  color: #384F5C !important;
+  padding-bottom: 1.5rem;
+  font-size: 4rem !important;
+  font-family: "Museo500" !important;
+}
+
+.download-a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #2189d1;
+}
+
+.media-description {
+  letter-spacing: 0.5px;
+  font-family: "Museo300" !important;
+  font-size: 1.6rem !important;
+}
+
+.contact-description {
+  letter-spacing: 0.5px;
+  font-family: "Museo300" !important;
+  font-size: 1.6rem !important;
+}
+
+.contact-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4rem;
+}
+
+.contact-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-image {
+  width: 12rem !important;
+  height: auto;
+}
+
+.contact-title {
+  color: #384F5C !important;
+  padding-bottom: 1.5rem;
+  font-size: 4rem !important;
+  font-family: "Museo500" !important;
+}
+
+.email-to {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #2189d1;
+}
+
+@media only screen and (max-width: 900px) {
+  .media-contact-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-div {
+    margin: 5rem 0rem 0rem 7rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .media-contact-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-div {
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  .contact-content {
+    width: 242px;
+  }
+  .media-image {
+    width: 10rem !important;
+  }
+  .contact-image {
+    width: 10rem !important;
+  }
+  .media-title {
+    font-size: 3rem !important;
+  }
+  .contact-title {
+    font-size: 3rem !important;
+  }
+  .media-description, .media-description a {
+    font-size: 1.6rem !important;
+  }
+  .contact-description, .contact-description a {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .media-div, .contact-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0px;
+  }
+}
+/*# sourceMappingURL=mediaContact.css.map */
