@@ -263,17 +263,17 @@ export default function () {
                   <div className="product-overview-wrapper">
                     <div className="product-overview-title">FEATURES</div>
 
-                    <div className="product-platform">
+                    <a href="https://enterpriseleague.com/dealzone"className="product-platform">
                       <img src={DealZoneImg} className="hovering-images"></img>
                       <a className="product-platform-text">&nbsp;Deal Zone</a>
-                    </div>
+                    </a>
 
-                    <div className="product-get-listed">
+                    <a href="https://enterpriseleague.com/explore" className="product-get-listed">
                       <img src={DirectoryImg} className="hovering-images"></img>
                       <a className="product-get-listed-text">&nbsp;Directory</a>
-                    </div>
+                    </a>
 
-                    <div className="product-see-all-categories">
+                    <a href="https://enterpriseleague.com/b2b-marketplacegit"className="product-see-all-categories">
                       <img
                         src={MarketPLaceImg}
                         className="hovering-images"
@@ -281,7 +281,7 @@ export default function () {
                       <a className="product-see-all-categories-text">
                         &nbsp;MarketPlace
                       </a>
-                    </div>
+                    </a>
                   </div>
                 </div>
 
